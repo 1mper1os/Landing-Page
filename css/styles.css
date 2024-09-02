@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #940008;
+  font-family: "Kanit", sans-serif;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vh;
+  height: 10vh;
+}
+
+
+.nav-log a{
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 860px;
+  font-weight: bold;
+  color: #ffffff;  
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  margin-left: 1rem ;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #ffffff;
+}
+
+.tidfirst{
+  width: 100vh;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+}
+
+section .bdpbe{
+  margin: 3rem;
+  color: #ffffff;
+}
+
+section .ibpd{
+  margin-left: 10rem;
+}
+
+
+
+
